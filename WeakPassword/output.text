@@ -1,0 +1,4 @@
+PS C:\Users\manik\OneDrive\Desktop\Day-2\software-security-bootcamp-2024\WeakPassword> python detector.py
+Enter a password to analyze: Kalai$2005
+Password is valid!
+PS C:\Users\manik\OneDrive\Desktop\Day-2\software-security-bootcamp-2024\WeakPassword>
