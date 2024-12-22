@@ -1,0 +1,7 @@
+Scan Results: {'credit_card': ['1234-5678-9876-5432'], 'social_security': [], 'api_key': ['AB12CD34EF56GH78IJ90KL12MN34OP56'], 
+'session_token': ['1234-5678-9876-5432', 'AB12CD34EF56GH78IJ90KL12MN34OP56']}
+String Analysis Results: {'random_strings': ['AB12CD34EF56GH78IJ90KL12MN34OP56'], 'pattern_matches': [('api_key', 
+'AB12CD34EF56GH78IJ90KL12MN34OP56'), ('session_token', 'AB12CD34EF56GH78IJ90KL12MN34OP56'), ('session_token', 'random_string_123'), ('credit_card', '1234-5678-9876-5432'), ('session_token', '1234-5678-9876-5432')]}
+Report: {'sanitized_findings': {'credit_card': ['*******************'], 'social_security': [], 'api_key': 
+['********************************'], 'session_token': ['*******************', '********************************']}, 'risk_assessment': {'high': ['*******************'], 'medium': ['********************************',
+ '*******************', '********************************'], 'low': []}}  
