@@ -1,0 +1,5 @@
+
+   Uninitialized pointers found:
+   Line 4: int *ptr1
+   Line 7: char* ptr4
+   Line 8: int * ptr7

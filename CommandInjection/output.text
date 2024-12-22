@@ -1,0 +1,11 @@
+Enter the target (IP address or hostname): mec.edu.in
+Enter the number of ping packets (e.g., 4): 4
+Built Command: ping -c 4 mec.edu.in
+Executing command...
+Error occurred while executing the ping command.
+
+//////////////////////////////////////////////////////
+
+Enter the target for the ping command: ping -c 4 ping -c 4 wwwogoogle.com
+Executing command: ping -c 4 ping -c 4 ping -c 4 wwwogoogle.com
+Access denied. Option -c requires administrative privileges.
