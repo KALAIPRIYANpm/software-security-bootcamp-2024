@@ -1,5 +1,5 @@
 import re
-
+#Weak Password Detector
 class PasswordComplexityChecker:
     def __init__(self):
         """
