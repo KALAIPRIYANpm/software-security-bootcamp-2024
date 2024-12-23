@@ -5,7 +5,6 @@ class PasswordComplexityChecker:
         """
         Initialize the password complexity checker.
         """
-        # Define regex patterns to check for the required components in the password
         self.uppercase_pattern = re.compile(r'[A-Z]')
         self.lowercase_pattern = re.compile(r'[a-z]')
         self.digit_pattern = re.compile(r'\d')
@@ -17,19 +16,15 @@ class PasswordComplexityChecker:
         """
         issues = []
         
-        # Check for at least one uppercase letter
         if not self.uppercase_pattern.search(password):
             issues.append("Password must contain at least one uppercase letter.")
         
-        # Check for at least one lowercase letter
         if not self.lowercase_pattern.search(password):
             issues.append("Password must contain at least one lowercase letter.")
         
-        # Check for at least one digit
         if not self.digit_pattern.search(password):
             issues.append("Password must contain at least one digit.")
         
-        # Check for at least one special character from "$", "%", "*", "&", "_"
         if not self.special_char_pattern.search(password):
             issues.append("Password must contain at least one special character from '$', '%', '*', '&', '_'.")
         
@@ -53,6 +48,6 @@ class PasswordComplexityChecker:
                 print(f" - {issue}")
 
 
-# Example usage:
+
 password_checker = PasswordComplexityChecker()
 password_checker.get_user_input()

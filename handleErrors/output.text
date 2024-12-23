@@ -1,0 +1,19 @@
+sample.py//////
+Detected potential issues:
+Line 9: ptr = None
+Line 17: print_message(None)
+Line 19: value = None
+NullPointerError: Misuse of None detected in the code.
+
+new.py//////
+Detected potential issues:
+Line 6: ptr = None
+Line 14: print_message(None)
+Line 19: value = None
+NullPointerError: Misuse of None detected in the code.
+
+null.py//////
+Detected potential issues:
+Line 3: my_var = None
+Line 4: # Trying to call a method on None (which will raise an error)
+NullPointerError: Misuse of None detected in the code.

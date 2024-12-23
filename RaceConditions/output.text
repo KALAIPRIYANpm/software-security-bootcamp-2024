@@ -1,0 +1,7 @@
+Enter messages one by one. Type 'STOP' to end input.
+Enter message: the details were submitted successfully
+Enter message: STOP
+Enter the number of threads to process messages: 2
+Processing message: the details were submitted successfully
+Thread-0 processed: the details were submitted successfully
+All messages processed.
