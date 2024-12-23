@@ -1,0 +1,12 @@
+--- Parser Report ---
+Privilege Checks Detected:
+ - if self.elevated:
+    os.kill(pid, signal.SIGTERM)
+ - if self.elevated:
+    os.system(f'renice {priority} -p {pid}')
+
+Dangerous Operations Detected:
+ - subprocess.run(f'gdb -p {pid}', shell=True)
+
+Debug Privilege Usage:
+ - subprocess.run(f'gdb -p {pid}', shell=True)

@@ -26,7 +26,7 @@ def detect_sql_injection(query):
     else:
         print("Query is safe from SQL injection.")
 
-
+ 
 detect_sql_injection(query)
 detect_sql_injection(query2)
 detect_sql_injection(query3)
