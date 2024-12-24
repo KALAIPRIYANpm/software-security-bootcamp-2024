@@ -14,7 +14,7 @@ def validate_client_route(route, allowed_routes, user_permissions):
         "/dashboard/*": ["user"],
         "/profile/*": ["viewer"]
     }
-
+#py
     for pattern in allowed_routes:
         if fnmatch.fnmatch(route, pattern):
             required_permissions = route_permissions.get(pattern, [])
