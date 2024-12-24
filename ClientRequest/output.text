@@ -1,0 +1,7 @@
+Enter the requested route (e.g., /admin/users): /admin
+Enter allowed routes as a comma-separated list (e.g., /dashboard/*,/profile/*,/admin/*): /profile,/users
+Enter user permissions as a comma-separated list (e.g., user,viewer): viewer
+
+
+Validation Result:
+{'allowed': False, 'reason': 'Route is not in the allowed list', 'required_permissions': []}
